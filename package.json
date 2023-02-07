@@ -1,0 +1,8 @@
+{
+  "name": "GraphQLProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/YoujeongPark/GraphQLProject.git",
+  "author": "YoujeongPark <pyj0695@gmail.com>",
+  "license": "MIT"
+}
