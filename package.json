@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/YoujeongPark/GraphQLProject.git",
   "author": "YoujeongPark <pyj0695@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private" : true,
+  "workspaces" : [
+    "client",
+    "server"
+  ],
+  "scripts" : {
+    "client" : "yarn workspace client start",
+    "server" : "yarn workspace"
+  }
 }
