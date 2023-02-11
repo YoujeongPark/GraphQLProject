@@ -1,0 +1,111 @@
+# Created by https://www.toptal.com/developers/gitignore/api/nextjs,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,react
+
+### NextJS ###
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/nextjs,react
+client/.next/build-manifest.json
+client/.next/fallback-build-manifest.json
+client/.next/react-loadable-manifest.json
+client/.next/cache/webpack/client-development/0.pack
+client/.next/cache/webpack/client-development/1.pack
+client/.next/cache/webpack/client-development/2.pack
+client/.next/cache/webpack/client-development/3.pack
+client/.next/cache/webpack/client-development/index.pack
+client/.next/cache/webpack/client-development/index.pack.old
+client/.next/cache/webpack/client-development-fallback/0.pack
+client/.next/cache/webpack/client-development-fallback/index.pack
+client/.next/cache/webpack/server-development/0.pack
+client/.next/cache/webpack/server-development/1.pack
+client/.next/cache/webpack/server-development/2.pack
+client/.next/cache/webpack/server-development/3.pack
+client/.next/cache/webpack/server-development/index.pack
+client/.next/cache/webpack/server-development/index.pack.old
+client/.next/server/pages-manifest.json
+client/.next/server/webpack-runtime.js
+client/.next/server/pages/_app.js
+client/.next/server/pages/_document.js
+client/.next/server/pages/_error.js
+client/.next/server/pages/index.js
+client/.next/server/pages/next/dist/pages/_error.js
+client/.next/static/chunks/amp.js
+client/.next/static/chunks/main.js
+client/.next/static/chunks/node_modules_next_dist_client_dev_noop_js.js
+client/.next/static/chunks/polyfills.js
+client/.next/static/chunks/react-refresh.js
+client/.next/static/chunks/webpack.js
+client/.next/static/chunks/fallback/amp.js
+client/.next/static/chunks/fallback/main.js
+client/.next/static/chunks/fallback/node_modules_next_dist_client_dev_noop_js.js
+client/.next/static/chunks/fallback/react-refresh.js
+client/.next/static/chunks/fallback/webpack.js
+client/.next/static/chunks/fallback/pages/_app.js
+client/.next/static/chunks/fallback/pages/_error.js
+client/.next/static/chunks/pages/_app.js
+client/.next/static/chunks/pages/_error.js
+client/.next/static/chunks/pages/index.js
+client/.next/static/chunks/pages/next/dist/pages/_error.js
+client/.next/static/development/_buildManifest.js
+client/.next/static/development/_ssgManifest.js
+client/.next/static/webpack/155f9937a659771862cd.webpack.hot-update.json
+client/.next/static/webpack/3ed8f2df2c1dd0baba83.webpack.hot-update.json
+client/.next/static/webpack/a92d98b08566c6c8f05c.webpack.hot-update.json
+client/.next/static/webpack/c3071159b4d3aa6ca213.webpack.hot-update.json
+client/.next/static/webpack/c3cb94b3e564d9a02525.webpack.hot-update.json
+client/.next/static/webpack/webpack.155f9937a659771862cd.hot-update.js
+client/.next/static/webpack/webpack.3ed8f2df2c1dd0baba83.hot-update.js
+client/.next/static/webpack/webpack.a92d98b08566c6c8f05c.hot-update.js
+client/.next/static/webpack/webpack.c3071159b4d3aa6ca213.hot-update.js
+client/.next/static/webpack/webpack.c3cb94b3e564d9a02525.hot-update.js
+client/.next/static/webpack/pages/_app.3ed8f2df2c1dd0baba83.hot-update.js
+client/.next/static/webpack/pages/index.c3071159b4d3aa6ca213.hot-update.js
